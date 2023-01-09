@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.header {
+    background: #131313;
+}
+
+.footer {
+    background: #131313;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 83px;
+}
+
+.tel {
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #E3B873;
+    margin-left: 100px;
+}
+
+.logo {
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.header-nav {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    margin-left: 123px;
+}
+
+.header-nav__item {
+    margin-right: 53px;
+}
+
+.header-nav__item:last-child {
+    margin-right: 0;
+}
+
+.header-nav__item a {
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+    outline: 0;
+    border: 0;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 20px 54px;
+}
+
+.button.header-button {
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    font-style: italic;
+    font-size: 11px;
+    line-height: 15px;
+    padding: 13px 33px;
+    width: 161px;
+    height: 37px;
+    margin-left: 45px;
+}
+
+.button.home-button {
+    font-size: 11px;
+    line-height: 15px;
+    font-style: italic;
+    text-align: center;
+    color: #FFFFFF;
+    width: 207px;
+    height: 51px;
+}
+
+.button.home-button:last-child {
+    margin-left: 20px;
+}
+
+.button.home-button#calccost {
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    padding: 20px 41px;
+}
+
+.button.home-button#submit {
+    background: #00000000;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    box-shadow: none;
+    padding: 19px 22px 20px 22px;
+    height: 51px;
+}
+
+.title {
+    margin: 0;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.home {
+    background-image: url('../images/home.png');
+    background-size: cover;
+    height: 707px;
+    position: relative;
+    padding-top: 194px;
+}
+
+.home-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.home-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 575px;
+}
+
+.align-buttons {
+    display: flex;
+    flex-direction: row;
+    padding-right: 80px;
+}
+
+#city-name {
+    color: #E3B873;
+}
+
+.home-txt {
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 9px;
+}
