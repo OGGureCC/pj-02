@@ -18,13 +18,13 @@
     <header class="header">
         <div class="container header-content">
             <div class="logo">
-                IC "Repair Design Project"
+                <h1 class="title logo-title">IC "Repair Design Project"</h1>
             </div>
             <nav>
                 <ul class="header-nav">
                     <li class="header-nav__item"><a href="#home">HOME</a></li>
                     <li class="header-nav__item"><a href="#projects">PROJECTS</a></li>
-                    <li class="header-nav__item"><a href="#">MEASUREMENT</a></li>
+                    <li class="header-nav__item"><a href="#measurement">MEASUREMENT</a></li>
                     <li class="header-nav__item"><a href="#">TEAM</a></li>
                     <li class="header-nav__item"><a href="#">REVIEWS</a></li>
                     <li class="header-nav__item"><a href="#">CONTACTS</a></li>
@@ -38,8 +38,8 @@
     <main>
         <section class="home" id="home">
             <div class="container home-content">
-                <h1 class="title home-title">Turnkey Repair in the<br>
-                    city of <span id="city-name">Rostov-on-Don</span></h1>
+                <h2 class="title home-title">Turnkey Repair in the<br>
+                    city of <span id="city-name">Rostov-on-Don</span></h2>
                 <p class="home-txt">Get ready-made turnkey repairs on time<br>
                     with work time saving up to 45 days and 20% from<br>
                     cost of materials due to the organization of work</p>
@@ -59,11 +59,11 @@
                         <li class="projects-nav__item"><a href="#">Rostov-on-Don Patriotic</a></li>
                     </ul>
                 </nav>
-                <div class="pj-image">
+                <div class="projects-image">
                     <img src="images\project-1.png" alt="Rostov-on-Don Admiral Image">
                 </div>
-                <div class="title projects-title">
-                    Completed <br>projects
+                <div class="completed-projects">
+                    <h3 class="title projects-title">Completed <br>projects</h3>
                 </div>
                 <div class="projects-description">
                     Only a small part of the work performed by our company is presented <br>
@@ -71,43 +71,212 @@
                     market we have made happy more than 1000 families
                 </div>
                 <div class="projects-char-1">
-                    <h3 class="title description-title">City:</h3>
+                    <h4 class="title description-title">City:</h4>
                     <p class="description-txt">Rostov-on-Don <br>
                         LCD admiral</p>
                 </div>
                 <div class="projects-char-2">
-                    <h3 class="title description-title">apartment area:</h3>
+                    <h4 class="title description-title">apartment area:</h4>
                     <p class="description-txt">81 m2</p>
                 </div>
                 <div class="projects-char-3">
-                    <h3 class="title description-title">Repair time:</h3>
+                    <h4 class="title description-title">Repair time:</h4>
                     <p class="description-txt">3.5 months</p>
                 </div>
                 <div class="projects-char-4">
-                    <h3 class="title description-title">Repair Cost:</h3>
+                    <h4 class="title description-title">Repair Cost:</h4>
                     <p class="description-txt">Upon request</p>
                 </div>
                 <div class="arrow-nav">
-                    <button class="button arrow-nav-button"><img src="images\arrow-left.svg" alt="Back"></button>
-                    <button class="button orb-nav-button"><img src="images\active-orb.svg" alt=""></button>
-                    <button class="button orb-nav-button" id="center-orb"><img src="images\unactive-orb.svg" alt=""></button>
-                    <button class="button orb-nav-button"><img src="images\unactive-orb.svg" alt=""></button>
+                    <button class="button arrow-nav-button"><img src="images\arrow-left.svg" alt="Previous"></button>
+                    <button class="button orb-nav-button"><img src="images\active-orb.svg" alt="First project"></button>
+                    <button class="button orb-nav-button" id="center-orb"><img src="images\unactive-orb.svg"
+                            alt="Second project"></button>
+                    <button class="button orb-nav-button"><img src="images\unactive-orb.svg"
+                            alt="Third project"></button>
                     <button class="button arrow-nav-button"><img src="images\arrow-right.svg" alt="Next"></button>
                 </div>
             </div>
+        </section>
+        <section class="online-control">
+            <div class="container online-control-content">
+                <div class="cam-header">
+                    <h3 class="title cam-title">online control</h3>
+                    <img src="images\security-cam.svg" alt="">
+                </div>
+                <div class="cam-video-overlayed">
+                    <!-- вставить плеер вместо изображения -->
+                    <div class="video"><img src="images\video.png" alt="Video"></div>
+                    <div class="video-shadow"></div>
+                    <div class="video-overlay"></div>
+                    <button class="button play-button"><img src="images\play-button.svg" alt="Play button"></button>
+                </div>
+                <hr class="line">
+                <div class="cam-txt">
+                    At each facility, a camera is installed that broadcasts the progress of work on the clock. At any
+                    time, you can go to our website and monitor the progress of work in your apartment. You can watch
+                    the live broadcast from one of our facilities!
+                    Leave a request below and you will receive a link to the broadcast.
+                </div>
+                <div class="cam-input">
+                    <div class="name-input">
+                        <label for="name" class="label">Name</label>
+                        <input type="text" name="name" class="input" id="name" placeholder="What is your name:">
+                    </div>
+                    <div class="phone-input" id="cam-center">
+                        <label for="tel" class="label">Phone</label>
+                        <input type="tel" name="phone" class="input" id="phone" placeholder="Your phone number:">
+                    </div>
+                    <button class="button cam-button">Submit</button>
+                </div>
+                <div class="personal-data">
+                    <input type="checkbox" class="checkbox" id="cam-checkbox">
+                    <label for="cam-checkbox" class="checkbox-label">I agree to the processing of personal
+                        data</label>
+                </div>
+            </div>
+        </section>
+        <section class="types-of-repair">
+            <div class="container repair-content">
+                <div class="repair-header">
+                    <h3 class="title repair-title">TYPES OF REPAIR</h3>
+                    <img src="images\repair.svg" alt="">
+                </div>
+                <div class="repair-grid">
+                    <div class="repair-block rb1">
+                        <img src="images\repair-1.png" alt="">
+                        <div class="repair-discription">
+                            <h4 class="repair-subtitle">Redecorating</h4>
+                            <ul class="repair-ul">
+                                <li class="repair-li">Dismantling of old coatings</li>
+                                <li class="repair-li">Wallpapering</li>
+                                <li class="repair-li">Painting walls and ceilings</li>
+                                <li class="repair-li">Laying flooring</li>
+                                <li class="repair-li">Replacing plumbing</li>
+                                <li class="repair-li">Replacing sockets and switches</li>
+                                <li class="repair-li">Replacing doors</li>
+                            </ul>
+                        </div>
+                        <div class="repair-price">from 900 rub / m2</div>
+                    </div>
+                    <div class="repair-block rb2">
+                        <img src="images\repair-2.png" alt="">
+                        <div class="repair-discription">
+                            <h4 class="repair-subtitle">Overhaul</h4>
+                            <ul class="repair-ul">
+                                <li class="repair-li">Dismantling of old coatings</li>
+                                <li class="repair-li">Wallpapering</li>
+                                <li class="repair-li">Painting walls and ceilings</li>
+                                <li class="repair-li">Laying flooring</li>
+                                <li class="repair-li">Replacing plumbing</li>
+                                <li class="repair-li">Replacing sockets and switches</li>
+                                <li class="repair-li">Replacing doors</li>
+                            </ul>
+                        </div>
+                        <div class="repair-price">from 1800 rub / m2</div>
+                    </div>
+                    <div class="repair-block rb3">
+                        <img src="images\repair-3.png" alt="">
+                        <div class="repair-discription">
+                            <h4 class="repair-subtitle">Designer Repair</h4>
+                            <ul class="repair-ul">
+                                <li class="repair-li">Dismantling of old coatings</li>
+                                <li class="repair-li">Wallpapering</li>
+                                <li class="repair-li">Painting walls and ceilings</li>
+                                <li class="repair-li">Laying flooring</li>
+                                <li class="repair-li">Replacing plumbing</li>
+                                <li class="repair-li">Replacing sockets and switches</li>
+                                <li class="repair-li">Replacing doors</li>
+                            </ul>
+                        </div>
+                        <div class="repair-price">from 4000 rub / m2</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="measurement" id="measurement">
+            <div class="container measurement-content">
+                <div class="measurement-discription">
+                    <ol class="measurement-ol">
+                        <li class="measurement-li">
+                            <div class="measurement-ol-img">
+                                <img src="images\number-orb.svg" alt="">
+                            </div>
+                            <div class="img-ol-number">01</div>
+                            <p class="ol-txt">Our specialist will arrive for measurements per day
+                                contact, or appoint a date convenient for you</p>
+                        </li>
+                        <li class="measurement-li">
+                            <div class="measurement-ol-img">
+                                <img src="images\number-orb.svg" alt="">
+                            </div>
+                            <div class="img-ol-number">02</div>
+                            <p class="ol-txt">Free metering</p>
+                        </li>
+                        <li class="measurement-li">
+                            <div class="measurement-ol-img">
+                                <img src="images\number-orb.svg" alt="">
+                            </div>
+                            <div class="img-ol-number">03</div>
+                            <p class="ol-txt">Free consultation</p>
+                        </li>
+                        <li class="measurement-li">
+                            <div class="measurement-ol-img">
+                                <img src="images\number-orb.svg" alt="">
+                            </div>
+                            <div class="img-ol-number">04</div>
+                            <p class="ol-txt">Get a cost estimate and
+                                the timing of your future repairs</p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="measurement-main">
+                    <div class="measurement-request">
+                        <div class="title request-title">Leave a request for free
+                            departure of the measurer</div>
+                        <div class="request-inputs">
+                            <div class="name-input">
+                                <label for="name" class="label request-label">Name</label>
+                                <input type="text" name="name" class="input request-input" id="request-name"
+                                    placeholder="What is your name:">
+                            </div>
+                            <div class="phone-input" id="request-center">
+                                <label for="tel" class="label request-label">Phone</label>
+                                <input type="tel" name="phone" class="input request-input" id="request-phone"
+                                    placeholder="Your phone number:">
+                            </div>
+                            <div class="email-input">
+                                <label for="email" class="label request-label">Email</label>
+                                <input type="email" name="email" class="input request-input" id="request-email"
+                                    placeholder="Your email:">
+                            </div>
+                            <div class="personal-data request-data">
+                                <input type="checkbox" class="checkbox" id="measurement-checkbox">
+                                <label for="measurement-checkbox" class="checkbox-label cb-label">I agree to the
+                                    processing of personal data</label>
+                            </div>
+                        </div>
+                        <button class="button request-button">Call the measurer</button>
+                    </div>
+                    <div class="help">
+                        <img src="images\piggy-bank.svg" alt="">
+                        <p class="help-txt">Help save 10 - 20% of the
+                            cost of materials</p>
+                    </div>
+                </div>
         </section>
     </main>
 
     <footer class="footer">
         <div class="container header-content">
             <div class="logo">
-                IC "Repair Design Project"
+                <h1 class="title logo-title">IC "Repair Design Project"</h1>
             </div>
             <nav>
                 <ul class="header-nav">
                     <li class="header-nav__item"><a href="#home">HOME</a></li>
                     <li class="header-nav__item"><a href="#projects">PROJECTS</a></li>
-                    <li class="header-nav__item"><a href="#">MEASUREMENT</a></li>
+                    <li class="header-nav__item"><a href="#measurement">MEASUREMENT</a></li>
                     <li class="header-nav__item"><a href="#">TEAM</a></li>
                     <li class="header-nav__item"><a href="#">REVIEWS</a></li>
                     <li class="header-nav__item"><a href="#">CONTACTS</a></li>
