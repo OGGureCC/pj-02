@@ -35,16 +35,16 @@
         </div>
     </header>
 
-    <main>
+    <main class="main">
         <section class="home" id="home">
             <div class="container home-content">
                 <h2 class="title home-title">Turnkey Repair in the<br>
-                    city of <span id="city-name">Rostov-on-Don</span></h2>
+                    city of <span class="title home-title" id="city-name">Rostov-on-Don</span></h2>
                 <p class="home-txt">Get ready-made turnkey repairs on time<br>
                     with work time saving up to 45 days and 20% from<br>
                     cost of materials due to the organization of work</p>
-                <div class="align-buttons">
-                    <button class="button home-button" id="calccost">CALCULATE THE COST</button>
+                <div class="home-buttons">
+                    <button class="button home-button">CALCULATE THE COST</button>
                     <button class="button home-button" id="submit">SUBMIT YOUR APPLICATION</button>
                 </div>
             </div>
@@ -59,33 +59,39 @@
                         <li class="projects-nav__item"><a href="#">Rostov-on-Don Patriotic</a></li>
                     </ul>
                 </nav>
-                <div class="projects-image">
-                    <img src="images\project-1.png" alt="Rostov-on-Don Admiral Image">
-                </div>
                 <div class="completed-projects">
                     <h3 class="title projects-title">Completed <br>projects</h3>
                 </div>
                 <div class="projects-description">
-                    Only a small part of the work performed by our company is presented <br>
-                    on the site. For 14 years on in the construction <br>
+                    Only a small part of the work performed by our company is presented
+                    on the site. For 14 years on in the construction
                     market we have made happy more than 1000 families
                 </div>
-                <div class="projects-char-1">
-                    <h4 class="title description-title">City:</h4>
-                    <p class="description-txt">Rostov-on-Don <br>
-                        LCD admiral</p>
+                <div class="projects-image">
+                    <img src="images\project-1.png" alt="Rostov-on-Don Admiral Image">
+                    <div class="projects-image-buttons">
+                        <button class="back-button"><img src="images\image-back.svg" alt="" class="back-button image-back"></button>
+                        <button class="next-button"><img src="images\image-next.svg" alt="" class="next-button image-next"></button>
+                    </div>
                 </div>
-                <div class="projects-char-2">
-                    <h4 class="title description-title">apartment area:</h4>
-                    <p class="description-txt">81 m2</p>
-                </div>
-                <div class="projects-char-3">
-                    <h4 class="title description-title">Repair time:</h4>
-                    <p class="description-txt">3.5 months</p>
-                </div>
-                <div class="projects-char-4">
-                    <h4 class="title description-title">Repair Cost:</h4>
-                    <p class="description-txt">Upon request</p>
+                <div class="projects-char">
+                    <div class="projects-char-1">
+                        <h4 class="title description-title">City:</h4>
+                        <p class="description-txt">Rostov-on-Don <br>
+                            LCD admiral</p>
+                    </div>
+                    <div class="projects-char-2">
+                        <h4 class="title description-title">apartment area:</h4>
+                        <p class="description-txt">81 m2</p>
+                    </div>
+                    <div class="projects-char-3">
+                        <h4 class="title description-title">Repair time:</h4>
+                        <p class="description-txt">3.5 months</p>
+                    </div>
+                    <div class="projects-char-4">
+                        <h4 class="title description-title">Repair Cost:</h4>
+                        <p class="description-txt">Upon request</p>
+                    </div>
                 </div>
                 <div class="arrow-nav">
                     <button class="button arrow-nav-button"><img src="images\arrow-left.svg" alt="Previous"></button>
@@ -269,7 +275,7 @@
             <div class="container styles-content">
                 <div class="styles-grid">
                     <div class="styles-main">
-                        <div class="title styles-title">We realize your
+                        <div class="title styles-title">We realize your <br>
                             wildest fantasies</div>
                         <ul class="styles-ul">
                             <li class="styles-li selected"><a href="#">American classic</a></li>
@@ -297,6 +303,13 @@
                         </div>
                         <div class="gallery-img" id="img-4">
                             <img src="images\gallery-4.png" alt="">
+                        </div>
+                        <div class="gallery-img" id="img-5">
+                            <img src="images\gallery-5.png" alt="">
+                            <div class="projects-image-buttons">
+                                <button class="back-button"><img src="images\image-back.svg" alt="" class="back-button image-back"></button>
+                                <button class="next-button"><img src="images\image-next.svg" alt="" class="next-button image-next"></button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -421,24 +434,24 @@
                     Decorum Tel +7 (928) 768 32 29</div>
                 <div class="contacts-buttons">
                     <div class="email-button">
-                        <a href="mailto:"><img src="images\email.svg" alt=""></a>
+                        <a href="mailto:"><img src="images\email.svg" alt="" id="email"></a>
                     </div>
                     <div class="inst-button">
-                        <a href="" target="_blank"><img src="images\inst.svg" alt=""></a>
+                        <a href="" target="_blank"><img src="images\inst.svg" alt="" id="inst"></a>
                     </div>
                 </div>
                 <div class="contacts-map">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2708.555126231937!2d39.7209908158626!3d47.244847220890236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3b9b47a7e7029%3A0x9e8cb546a10601cc!2z0KLQpiAi0JTQtdC60L7RgNGD0Lwi!5e0!3m2!1sru!2sru!4v1673825821321!5m2!1sru!2sru"
                         width="925" height="465" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
                 </div>
             </div>
             <div class="contacts-overlay"></div>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="header footer">
         <div class="container header-content">
             <div class="logo">
                 <h1 class="title logo-title">IC "Repair Design Project"</h1>
