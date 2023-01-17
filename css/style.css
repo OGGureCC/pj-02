@@ -406,7 +406,7 @@ body ::-webkit-scrollbar {
 
 @media screen and (max-width: 1300px) {
     .projects {
-        height: 660px;
+        height: 662px;
         padding: 36px 0 0;
     }
 
@@ -777,6 +777,7 @@ body ::-webkit-scrollbar {
     .input {
         width: 340px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        color: #FFFFFF;
     }
 
     .input:focus {
